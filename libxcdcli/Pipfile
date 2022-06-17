@@ -30,6 +30,7 @@ jinja2 = "*"
 numpy = "*"
 scipy = "*"
 sympy = "*"
+pandas = "*"
 
 [dev-packages]
 
