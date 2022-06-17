@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+fastapi = "*"
+redis = "*"
+pymongo = "*"
+plumbum = "*"
+dominate = "*"
+py-emmet = "*"
+esper = "*"
+requests = "*"
+"ruamel.yaml" = "*"
+arrow = "*"
+psutil = "*"
+rich = "*"
+typer = "*"
+loguru = "*"
+boltons = "*"
+cryptography = "*"
+path = "*"
+python-box = {extras = ["all"], version = "*"}
+uvicorn = "*"
+black = "*"
+dearpygui = "*"
+jinja2 = "*"
+numpy = "*"
+scipy = "*"
+sympy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
